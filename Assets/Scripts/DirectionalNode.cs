@@ -10,6 +10,7 @@ public class DirectionalNode : MonoBehaviour
     public string current;
     SpriteRenderer sr;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +26,11 @@ public class DirectionalNode : MonoBehaviour
 
     void SwitchSprite()
     {
-        if(current == "left")
+        if (current == "left")
         {
             sr.sprite = left;
         }
-        else if(current == "right")
+        else if (current == "right")
         {
             sr.sprite = right;
         }
